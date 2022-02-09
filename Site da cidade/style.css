@@ -6,7 +6,7 @@
 
 body{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #fff url(fundo.png) repeat-x;
+    background: #fff url(img/fundo.png) repeat-x;
 }
 
 .container{
@@ -16,12 +16,12 @@ body{
 
 .topo{
     height: 150px;
-    background: url(detalhe-topo.png) no-repeat right top;
+    background: url(img/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
 }
 
 .logo{
-   background: url(logo.png) no-repeat left top;
+   background: url(img/logo.png) no-repeat left top;
    margin-bottom: 20px;
 }
 
