@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+@font-face{
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    padding: 0%;
+    margin: 0;
+    background-color: bisque;   
+}
+
+.top{
+   background-color: rgb(255, 168, 168);
+   padding-top: 50px;
+   max-height: 200px;
+}
+
+ .h1-header{
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ 
+ .cabeça p{
+     text-align: center;
+     padding-bottom: 20px;
+     max-width: 600px;
+     margin: auto;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+
+ .menu {
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 30px;
+ }
+
+ .menu a{
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+    padding: 2px; 
+ }
+ 
+.menu a:hover{
+    color: aqua;
+    background-color: rgba(107, 107, 107, 0.768);   
+}
+
+.corpo{
+    max-width: 1000px;
+    min-width: 320px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 1px 1px 5px gray;
+}
+
+article h1, h2{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family: android;
+}
+
+p{
+    margin: 20px ;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.corpo .img-1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.corpo .img-2{
+    display: flex;
+    width: 90%;
+    margin: auto; 
+    justify-content: center;
+}
+
+.corpo .img-3{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.corpo .video{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.list h3{
+    display: flex;
+    background-color: green;
+    color: honeydew;
+    padding: 5px 5px 5px 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(110, 170, 110);
+    width: 95% ;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.list ul{
+    list-style-position: inside;
+    columns: 2;
+    width: 100%;
+    margin: auto;
+    padding-left:10px;
+}
+
+.end-p{
+    padding-bottom: 20px;  
+}
+
+footer{
+    background-color: green;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+
+ footer p{
+     padding: 5px;
+     margin: 0px;
+}
