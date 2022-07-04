@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <Header class="nav_container"> 
+        <nav class="nav">
+            <h1>MUSEU <span>NACIONAL</span></h1>
+            <ul class="navMenu" id="toggler">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">EXPOSIÇÕES</a></li>
+                <li><a href="#">PESQUISA</a></li>
+                <li><a href="#">ACERVO</a></li>
+                <li><a href="#">VÍDEOS</a></li>
+                <li><a href="#">FOTOS</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+            <div class="navToggle" id="btn">
+                <div class="toggle_trace"></div>
+                <div class="toggle_trace"></div>
+                <div class="toggle_trace"></div>
+            </div>
+        </nav>
+    </Header>
+    <article class="container">
+        <section class="main_conteudo">
+            <div>
+                <img src="img/museu.png" alt="">
+            </div>
+            <div class="container_colunas">
+                <div class="coluna_direita">
+                    <div>
+                        <h2>VÍDEO: CONHEÇA O MUSEU</h2>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    </div>
+                    <div>
+                        <h2>EXPOSIÇÕES</h2>
+                        <ul>
+                            <li><a href="#">Os assustadores insetos</a></li>
+                            <li><a href="#">O cranio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                            <li><a href="#">Plantas do Brasil Central</a></li>
+                            <li><a href="#">Tereza Cristina: A Imperatriz Arqueóloga</a></li>
+                            <li><a href="#">Arte com Dinossauros - Paleoarte</a></li>
+                            <li><a href="#">Veja todos (65)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="coluna_esquerda">
+                    <div class="mapa">
+                        <h2>MAPA: ENCONTRE O MUSEU</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1644339189726!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="historia">
+                        <h2>200 ANOS DE HISTÓRIA</h2>
+                        <p>O Museu é uma instituição autônoma, integrante do Fórum de Ciência e Cultura da Universidade Federal do Rio de Janeiro, vinculada ao Ministério da Educação que completou 200 anos em 2018. <br></p>
+                        <p>Criado por D. João VI, em 06 de junho de 1818 e inicialmente, sediado no Campo de Sant'Ana, serviu para atender aos interesses de promoção do progresso cultural e econômico do país.</p>
+                        <a href="#">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="right_aside">
+            <div>
+                <img class="img-depoimento" src="img/depoimento.png" width="350px" >
+            </div>
+            <div class="visita">
+                <h2>FAÇA UMA VISÍTA</h2>
+                <form >
+                    <fieldset>
+                        <legend>Selecione uma data</legend>
+                        <label for="data">Data: </label>
+                        <input class="campo" type="text" id="data" value="dd/mm/aaaa" style="width: 90px;">
+                        <label for="qtd">Qtd pessoas </label>
+                        <input class="campo" type="text" id="qtd" value="1" style="width: 30px;" >
+                    </fieldset>
+                    <input  type="submit" id="submit" value="Verificar disponibilidade">
+                </form>
+            </div>
+            <div class="galeria">
+                <h2>GALERIA DE FOTOS</h2>
+                <div>
+                    <a href="#">
+                        <img src="img/imagem1.jpg" >
+                    </a>
+                    <a href="#">
+                        <img src="img/imagem2.jpg" >
+                    </a>
+                    <a href="#">
+                        <img src="img/imagem3.jpg" >
+                    </a>
+                    <a href="#">
+                        <img src="img/imagem4.jpg" >
+                    </a>
+                </div>
+            
+            </div>
+        </aside> 
+    </article> 
+    <footer class="rodape">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">EXPOSIÇÕES</a></li>
+            <li><a href="#">PESQUISA</a></li>
+            <li><a href="#">ACERVO</a></li>
+            <li><a href="#">VÍDEOS</a></li>
+            <li><a href="#">FOTOS</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+        <p>2022 Museu Nacional - Todos os dirietos reservados.</p>
+</footer>
+
+    
+<script src="index.js"></script>
+</body>
+</html>
