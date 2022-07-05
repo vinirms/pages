@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ span{
 }
 
 .menu a:hover{
-    background-color: rgb(252, 203, 139);
+    background-color: #fccb8b;
 }
 
 .section{
@@ -89,7 +89,7 @@ a{
 }
 
 .categorias h2{
-    background-color: rgb(187, 187, 187);
+    background-color: #bbbbbb;
     padding: 5px 10px;
     margin-bottom: 10px;
 }
@@ -104,4 +104,4 @@ footer{
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-}
+} */
