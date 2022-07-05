@@ -3,15 +3,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
 }
 
 .nav_container {
   min-height: 15vh;
   width: 100%;
   display: flex;
+  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   background-image: url("../img/fundo.png");
+  -webkit-box-shadow: 0px 10px 17px -3px #000000;
+  box-shadow: 0px 10px 17px -3px #000000;
 }
 
 .nav {
@@ -27,7 +31,7 @@
   font-weight: bold;
 }
 .nav span {
-  color: #B45F04;
+  color: #d66f00;
   text-transform: uppercase;
   margin-left: 10px;
   font-size: 25px;
@@ -38,12 +42,21 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 20px;
+  gap: 10px;
   overflow: hidden;
 }
+.navMenu li {
+  padding: 5px;
+}
 .navMenu a {
-  color: #B45F04;
+  color: #d66f00;
   text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.navMenu a:hover {
+  color: #362411;
+  background-color: #d66f00;
 }
 
 .navToggle div {
@@ -110,19 +123,22 @@
 }
 .right_aside .visita {
   margin-top: 20px;
-  width: 300px;
+  width: 320px;
   padding: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: #cdc8b1;
+  background: #CF8A40;
 }
-.right_aside .visita input {
-  height: 20px;
+.right_aside .visita input[type=submit] {
+  height: 30px;
   border: none;
   margin-top: 10px;
   width: 100%;
+  padding: 5px;
+  color: #fff;
+  background-color: #82734e;
   cursor: pointer;
 }
 .right_aside .galeria {
@@ -158,15 +174,6 @@
   align-items: center;
   flex-direction: column;
 }
-.rodape ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-.rodape ul a {
-  color: white;
-  text-decoration: none;
-}
 
 @media screen and (max-width: 768px) {
   .nav {
@@ -188,7 +195,7 @@
   }
   .navMenuOpen {
     visibility: visible;
-    height: 260px;
+    height: 230px;
   }
   .container {
     width: 100%;
@@ -216,9 +223,6 @@
   }
   .rodape {
     width: 100%;
-  }
-  .rodape ul {
-    display: none;
   }
 }
 
